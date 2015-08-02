@@ -10,7 +10,6 @@ $(document).ready(function() {
 
 		var mascot = '<h2>' + random_animal1 + random_animal2 +'</h2>';
 
-		$('#mascots').html('');
-		$('#mascots').append(mascot);
+		$('#mascots').html(mascot);
 	});
 });
